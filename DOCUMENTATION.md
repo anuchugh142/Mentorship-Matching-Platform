@@ -202,8 +202,3 @@ localStorage.setItem('requests', JSON.stringify([
 - Efficient localStorage usage
 - Debounced search
 - Lazy loading
-
-### Limitations
-- localStorage size limits
-- Browser compatibility
-- Data persistence 
