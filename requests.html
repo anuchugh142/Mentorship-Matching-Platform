@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Platform - Requests</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation will be inserted here by common.js -->
+    
+    <div class="container">
+        <div class="requests-container">
+            <h1>Mentorship Requests</h1>
+
+            <!-- Incoming Requests Section -->
+            <section class="requests-section">
+                <h2>Incoming Requests</h2>
+                <div id="incomingRequests" class="requests-grid">
+                    <!-- Incoming request cards will be inserted here -->
+                </div>
+                <div id="noIncomingRequests" class="no-requests" style="display: none;">
+                    No incoming requests yet.
+                </div>
+            </section>
+
+            <!-- Sent Requests Section -->
+            <section class="requests-section">
+                <h2>Sent Requests</h2>
+                <div id="sentRequests" class="requests-grid">
+                    <!-- Sent request cards will be inserted here -->
+                </div>
+                <div id="noSentRequests" class="no-requests" style="display: none;">
+                    No sent requests yet.
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="common.js"></script>
+    <script src="requests.js"></script>
+</body>
+</html> 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Platform - Profile Setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <h1>Setup Your Profile</h1>
+            
+            <form id="profileForm" class="profile-form">
+                <!-- Role Selection -->
+                <div class="form-section">
+                    <h2>Your Role</h2>
+                    <div class="role-selection">
+                        <label class="role-option">
+                            <input type="radio" name="role" value="mentor" required>
+                            <span class="role-label">Mentor</span>
+                        </label>
+                        <label class="role-option">
+                            <input type="radio" name="role" value="mentee" required>
+                            <span class="role-label">Mentee</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="form-section">
+                    <h2>Skills</h2>
+                    <div class="form-group">
+                        <label for="skills">Enter your skills (comma-separated)</label>
+                        <input type="text" id="skills" placeholder="e.g., JavaScript, CSS, React" required>
+                        <div id="skillsTags" class="tags-container"></div>
+                    </div>
+                </div>
+
+                <!-- Interests Section -->
+                <div class="form-section">
+                    <h2>Interests</h2>
+                    <div class="form-group">
+                        <label for="interests">Enter your interests (comma-separated)</label>
+                        <input type="text" id="interests" placeholder="e.g., Web Development, Open Source" required>
+                        <div id="interestsTags" class="tags-container"></div>
+                    </div>
+                </div>
+
+                <!-- Bio Section -->
+                <div class="form-section">
+                    <h2>Bio</h2>
+                    <div class="form-group">
+                        <label for="bio">Tell us about yourself</label>
+                        <textarea id="bio" rows="4" required 
+                            placeholder="Share your experience, goals, and what you're looking for in mentorship"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary">Save Profile</button>
+                <p id="profileMessage" class="message"></p>
+            </form>
+        </div>
+    </div>
+    <script src="common.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html> 

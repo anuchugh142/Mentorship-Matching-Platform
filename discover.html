@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Platform - Discover</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="discover-container">
+            <h1>Discover Mentors & Mentees</h1>
+
+            <!-- Filters Section -->
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label for="roleFilter">Filter by Role:</label>
+                    <select id="roleFilter">
+                        <option value="all">All</option>
+                        <option value="mentor">Mentors</option>
+                        <option value="mentee">Mentees</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="skillSearch">Search by Skill:</label>
+                    <input type="text" id="skillSearch" placeholder="e.g., JavaScript, React">
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section">
+                <div id="userCards" class="user-cards">
+                    <!-- User cards will be dynamically inserted here -->
+                </div>
+                <div id="noResults" class="no-results" style="display: none;">
+                    No matching profiles found. Try adjusting your filters.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="common.js"></script>
+    <script src="discover.js"></script>
+</body>
+</html> 
