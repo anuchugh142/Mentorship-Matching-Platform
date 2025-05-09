@@ -46,7 +46,3 @@ For detailed documentation, please refer to [DOCUMENTATION.md](./DOCUMENTATION.m
 2. Register a new account
 3. Set up your profile
 4. Start connecting with mentors/mentees
-
-## 📁 Project Structure
-
-```
