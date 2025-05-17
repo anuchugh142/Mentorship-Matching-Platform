@@ -4,7 +4,7 @@ A static frontend mentorship platform built with vanilla HTML, CSS, and JavaScri
 
 ## 🌐 Live Demo
 
-Visit the live application: [Mentor Platform](https://your-deployment-link.com)
+Visit the live application: [Mentor Platform](https://mentorplatform.netlify.app/)
 
 ## 📚 Documentation
 
